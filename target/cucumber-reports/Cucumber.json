@@ -1,0 +1,100 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 7,
+        "name": "User registers by successfully completing the registration form",
+        "description": "",
+        "id": "hepsiburadaürün;user-registers-by-successfully-completing-the-registration-form",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9261781700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Hepsi burada sayfası acilir",
+            "match": {
+              "location": "LoginSteps.HepsiburadaAnaSayfa()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4760111300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Login olunur",
+            "match": {
+              "location": "LoginSteps.Login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3220255100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Login islemi kontrol edilir",
+            "match": {
+              "location": "LoginSteps.userSeesTheRegistrationForm()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 17987037600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Farkli uc urun incelenir",
+            "match": {
+              "location": "LoginSteps.arama()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10444173100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Sepetimde incelenen ürünler kontrol edilir",
+            "match": {
+              "location": "LoginSteps.sepet()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 678038500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "driver close",
+            "match": {
+              "location": "LoginSteps.driverClose()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@HepsiBuradaÜrün"
+          }
+        ]
+      }
+    ],
+    "name": "HepsiBuradaürün",
+    "description": "",
+    "id": "hepsiburadaürün",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]

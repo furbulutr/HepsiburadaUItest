@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="46.351397">
+<testcase classname="HepsiBuradaürün" name="User registers by successfully completing the registration form" time="46.351397">
+<system-out><![CDATA[Given Hepsi burada sayfası acilir...........................................passed
+When Login olunur...........................................................passed
+Then Login islemi kontrol edilir............................................passed
+And Farkli uc urun incelenir................................................passed
+Then Sepetimde incelenen ürünler kontrol edilir.............................passed
+And driver close............................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
